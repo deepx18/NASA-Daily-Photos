@@ -12,7 +12,7 @@ function App() {
   const dateRef = useRef(null)
 
   useEffect(() => {
-    fetch("https://api.nasa.gov/planetary/apod?api_key=OG5QOgpTh0kNG3uRHwNGWxm5hROWvDmBaHUTOAyA")
+    fetch("https://api.nasa.gov/planetary/apod?api_key=MFGks58It5LL4cYbiOWoiNlVXlarWLreTxqhMfjZ")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
